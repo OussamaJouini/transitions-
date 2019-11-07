@@ -41,7 +41,7 @@ main {
 }
 
 .card .avatar{
-  transform: translate(0.0, 0.7rem) scale(1.1) rotateY(0deg); 
+  transform: translate(0.0, 0.5rem) scale(1.0) rotateY(0deg); 
   transition: 0.6s ease-out 0.5s;
 
 }
@@ -99,7 +99,30 @@ main {
   color: hsl(220deg, 30%, 50%);
 }
 
-/**/
+.card .email {
+  color: hsl(220deg, 30%, 50%);
+  transition: 0.5s ease-out 1.5s;
+    
+}
+
+.card:hover .email {
+  color: hsl(220deg, 0%, 95%);
+  font-size:0.8rem;
+  transition: 0.5s ease-out 1s;
+  
+}
+
+.card .cell {
+  color: hsl(220deg, 30%, 50%);
+  transition: 0.5s ease-out 1.5s;
+}
+
+.card:hover .cell {
+  color: hsl(220deg, 30%, 50%);
+  color: hsl(220deg, 0%, 95%);
+  font-size:0.8rem;
+  transition: 0.5s ease-in 1s;
+  }
 
 
 .email {}
