@@ -86,11 +86,8 @@ main {
 .avatar img {
   border: 0.25rem solid hsl(80deg, 50%, 70%);
   border-radius: 50%;
-  /*transition: 0.5s ease-out 0.5s;*/
+  transition: 0.5s ease-out 0.5s;
 }
-
-
-/**/
 
 
 .contact {
@@ -101,7 +98,7 @@ main {
 
 .card .email {
   color: hsl(220deg, 30%, 50%);
-  transition: 0.5s ease-out 1.5s;
+  transition: 0.8s ease-out 1.5s;
     
 }
 
